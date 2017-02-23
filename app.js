@@ -11,7 +11,7 @@ const serviceAccount = require("./madden17.json");
 // TODO: Enter your database url from firebase
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://madden17-37dfa.firebaseio.com/"
+  databaseURL: "https://madden17-2020.firebaseio.com/"
 });
 
 // Setup
