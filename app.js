@@ -22,7 +22,7 @@ app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 
 app.get('/', function(req, res) {
-  return res.send('Madden Data')
+  return res.send(req)
 });
 
 // This accepts all posts requests!
